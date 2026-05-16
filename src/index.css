@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+
+  --color-canvas: #FDFDFB;
+  --color-secondary: #F8F8F6;
+  --color-accent: #1A1A1A;
+  --color-border-subtle: #E0E0DE;
+}
+
+@layer base {
+  body {
+    @apply bg-canvas text-accent font-sans;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-serif italic;
+  }
+}

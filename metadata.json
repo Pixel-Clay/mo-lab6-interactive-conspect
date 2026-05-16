@@ -1,0 +1,8 @@
+{
+  "name": "Metaheuristic Optimization Lab",
+  "description": "Interactive visualization and theoretical guide for Genetic Algorithms (TSP) and Ant Colony Optimization (Shortest Path).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
